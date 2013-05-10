@@ -1,0 +1,49 @@
+html {	
+	overflow:auto;
+}
+body {
+	margin:0 auto;
+	padding:0;
+	width:984px;
+	background-color:#000;
+	overflow:auto;
+}
+body,div,ul,li,form {
+	font:12px  Tahoma, Verdana;
+}
+form {
+	margin: 0px;
+}
+
+
+ul,li,dl,dt,dd,form {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+img {
+	border:0;
+}
+
+.fc {
+	clear: both;
+}
+
+<!-- µ¼º½ --> 
+.top-nag {
+}
+.top-nag ul li{
+	font-size:14px;
+	padding-top:20px;
+	float:right;
+	padding-right:5px;
+	font-weight:bold
+}
+
+.top-nag a:link, .top-nag a:visited, .top-nag a:active{color:#FFF;text-decoration:none}
+.top-nag a:hover{color:#FFF;text-decoration:underline}
+
+
+a:link, a:visited, a:active{color:#000;text-decoration:none}
+a:hover{color:#000;text-decoration:underline}

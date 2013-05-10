@@ -1,0 +1,90 @@
+#header {
+	height:40px;
+	padding-top:60px;
+	text-align:center;
+	color:red;
+}
+
+#main {
+	width:328px;
+	margin:0 auto;
+	border:1px solid  #99C2EE;
+	background-color:#99C2EE;
+}
+
+#main:after {
+	content:'';
+	display: block;
+	height:0;
+	clear:both;
+}
+#main #title {
+	border:1px solid  #FFF;
+	background:url('img/err_bg.jpg');
+	height:27px;
+	line-height:27px;
+	padding-left:10px;
+	width:316px;
+	letter-spacing:4px;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+}
+
+#verify {
+	margin:0 auto;
+	width:330px;
+}
+
+#verify ul {
+	width:280px;
+	padding-left:77px;
+}
+
+#verify ul li {
+	padding-top:5px;
+	padding-left:5px;
+}
+#sub {
+	margin:0 auto;
+	width:330px;
+	height:30px;
+	padding-top:20px;
+	text-align:center;
+}
+
+#footer {
+	text-align:center;
+	padding-top:40px;
+	height:60px;
+}
+
+.lft {
+	width:77px;
+	height:20px;
+	float: left;
+	border-left:1px solid #D6E0EF;
+	border-right:1px solid #D6E0EF;
+	border-bottom:1px solid #D6E0EF;
+	text-align:center;
+	background-color:#FFFFFF;
+	padding-top:6px;
+}
+
+.rgt {
+	padding-top:3px;
+	padding-left:5px;
+	float: left;
+	width:243px;
+	height:23px;
+	border-right:1px solid #D6E0EF;
+	border-bottom:1px solid #D6E0EF;
+	background-color:#FFFFFF;
+}
+
+input,select,textarea {
+	font: 12px "Courier New" , Tahoma, Verdana; 
+	color: #000000; 
+	font-weight: normal; 
+	background-color: #F8F8F8 
+}

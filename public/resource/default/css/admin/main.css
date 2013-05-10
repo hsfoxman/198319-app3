@@ -1,0 +1,138 @@
+body {
+	background-color:#FFF;
+}
+
+#header:after {
+	content:'';
+	display: block;
+	height:0;
+	clear:both;
+}
+
+#header {
+	height:67px;
+	width:100%;
+	background:url('img/top_bg.jpg') no-repeat right top;
+}
+
+#header #logo {
+	height:57px;
+	width:40%;
+	float:left;
+	background:url('img/woyo_logo.png') no-repeat 30px center;
+	padding-left:170px;
+}
+
+#header #logo ul{
+	zoom:1;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#header #logo ul li.li1 {
+	line-height: 28px;
+}
+
+#header #logo ul li.li2 {
+}
+
+#header #titbar {
+	height:57px;
+	width:40%;
+	float:right;
+	text-align:right;
+}
+
+#header #titbar p {
+	margin:0;
+	font-size:12px;
+	line-height:33px;
+	height:33px;
+	color:#184A87;
+}
+
+#header #titbar #tit1 {
+	padding-right:10px;
+	text-align:right;
+}
+
+#header #titbar #tit2 {
+	text-align:right;
+	padding-right:132px;
+}
+
+#lftMenu .tc {
+	margin-left: 5px;
+}
+
+#lftTopMenu p {
+	margin:0;
+	padding:0;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+}
+
+.menu_tit_1 {
+	line-height:26px;
+	height:26px;
+	color:#184A87;
+	text-align:left;
+	padding-left:6px;
+	background:url('img/icon_1.gif') no-repeat 4px;	
+	width:149px;
+	cursor:pointer;
+	text-indent:10px;
+}
+.menu_tit_2{
+	line-height:26px;
+	height:26px;
+	color:#184A87;
+	text-decoration: underline;
+	text-align:left;
+	padding-left:40px;
+	cursor:pointer;
+	background:url('img/icon_1.gif') no-repeat 38px;
+	text-indent:10px;
+}
+
+.menu_tit_sub_1 {
+	line-height:26px;
+	height:26px;
+	color:#184A87;
+	text-decoration: underline;
+	text-align:left;
+	padding-left:10px;
+	width:149px;
+	cursor:pointer;
+	text-indent:20px;
+}
+
+.menu_tit_sub_2 {
+	line-height:22px;
+	height:22px;
+	color:#fff;
+	text-decoration: underline;
+	text-align:left;
+	padding-left:10px;
+	width:149px;
+	cursor:pointer;
+	background:#8AB5E8 url('img/icon_3.gif') no-repeat 8px;
+	text-indent:20px;
+}
+
+#mainMenu div {
+	margin: 0 auto 5px;
+}
+
+#menu #menu_tit {
+	font-size:12px;
+	text-align:left;
+	padding:5px 0 0 5px;
+}
+
+#menu #menu_main {
+	height:23px;
+	line-height:23px;
+	text-align:center;
+}

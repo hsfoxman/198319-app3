@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,b,dl,dd,table,td,th,input,img,form,div,ul,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}:focus{outline:0;}
+img,iframe{border:medium none;}
+ol,ul,li{list-style:none;}
+img,input,label{vertical-align:baseline;}
+body{font:normal 12px/1.5 Arial,Tahoma,Helvetica,sans-serif;}
+a:link,a:visited{color:#334787;text-decoration:none;}
+a:hover{text-decoration:underline;cursor:pointer;}
+del{font-family:SimSun;text-decoration:line-through;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+body{background-color:#fff;}
+.title{ margin-bottom:10px;}
+.center{width:960px;margin:0 auto;}
+.main{width:960px;margin:0 auto;}
+.left{ float:left; width:270px}
+.right{ float:left; }
+.footer{width:960px;margin:0 auto; margin-top:60px;}
